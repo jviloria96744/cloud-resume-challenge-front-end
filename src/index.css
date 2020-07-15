@@ -3,7 +3,8 @@
 }
 
 .container {
-  background-image: linear-gradient(to bottom right, black, blue);
+  background-image: linear-gradient(to bottom right, black 60%, blue);
   height: 100vh;
   width: auto;
+  color: white;
 }
