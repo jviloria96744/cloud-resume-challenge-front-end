@@ -1,4 +1,4 @@
 .container {
-  background-image: linear-gradient(from bottom right, black, blue);
+  background-image: linear-gradient(to bottom right, black, blue);
   height: 100%;
 }
