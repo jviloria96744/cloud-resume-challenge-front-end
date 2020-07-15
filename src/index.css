@@ -1,4 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+
 .container {
   background-image: linear-gradient(to bottom right, black, blue);
   height: 100vh;
+  width: auto;
 }
