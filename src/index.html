@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="index.css" />
+    <link
+      href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css"
+      rel="stylesheet"
+    />
     <title>Jay Viloria</title>
   </head>
   <body>
@@ -12,10 +16,118 @@
         <img src="profile_image.jpg" alt="" />
       </div>
       <div class="profile-info">
-        <h2>Jay Viloria</h2>
-        <h4>Software Engineer</h4>
-        <h4>More Info</h4>
+        <h1>Jay Viloria</h1>
+        <h4>
+          Fullstack Software Engineer With Python (Flask) and JavaScript
+          Experience
+        </h4>
+        <h4>Aspiring Cloud Developer/Architect</h4>
+        <a
+          href="https://www.youracclaim.com/badges/60b96106-19e9-4428-959e-a1bf2d80f589/public_url"
+          target="_blank"
+        >
+          <img src="aws-certified-solutions-architect-associate.png" alt="" />
+        </a>
+        <a
+          href="https://www.youracclaim.com/badges/b16933fc-047f-47e8-8d09-f0e228b6ad40/public_url"
+          target="_blank"
+        >
+          <img src="aws-certified-cloud-practitioner.png" alt="" />
+        </a>
+        <h4>Contact Me</h4>
+        <a href="https://www.linkedin.com/in/jay-viloria/" target="_blank">
+          <i class="icon-linkedin-sign icon-2x"></i>
+        </a>
+        <a href="https://github.com/jviloria96744" target="_blank">
+          <i class="icon-github-sign icon-2x"></i>
+        </a>
       </div>
+    </div>
+
+    <div class="content">
+      <div class="projects">
+        <h2>Personal Projects</h2>
+
+        <h3>
+          <a
+            href="https://github.com/jviloria96744/covered-ca-prescription-search"
+            target="_blank"
+          >
+            <i class="icon-github-sign"></i>
+          </a>
+
+          Covered CA Prescription Search
+        </h3>
+        <div class="project">
+          <div class="description">
+            <p>
+              This is a tool to compare different Covered California market
+              plans, specifically from the perspective of prescription drug
+              coverage/costs. Users are able to search multiple prescription
+              drug names/brand names, aggregating the results across multiple
+              providers. The source of the data behind the search functionality
+              are the original PDFs of the provider formularies scraped using a
+              collection of ad-hoc scripts. My goal was to (1) create a simple
+              tool that might assist people going through the process of
+              researching market plans and (2) serve as a POC for functionality
+              that can be made available/enhanced on the CoveredCA website
+              provided access to the underlying raw data is possible.
+            </p>
+
+            <br />
+            <p>Technology Used</p>
+            <ul class="technology-list">
+              <li>
+                <strong>Front-End</strong>: React, Hooks, Context API, Material
+                UI
+              </li>
+              <li>
+                <strong>Back-End</strong>: AWS Lambda (Python), Amazon S3,
+                Amazon S3 Select
+              </li>
+              <li><strong>Data Processing</strong>: Python (Tabula)</li>
+              <li>
+                <strong>Hosting</strong>: Amazon CloudFront, Amazon Route53
+              </li>
+            </ul>
+
+            <br />
+            <p>
+              <strong
+                >TRY ME! Hover over the screenshot to see an animation or go
+                directly to the
+                <a
+                  class="project-link"
+                  href="https://coveredcaprescriptionsearch.com/"
+                  target="_blank"
+                  >tool</a
+                >
+              </strong>
+            </p>
+          </div>
+          <div class="screenshot">
+            <img
+              class="static"
+              src="https://s3-us-west-2.amazonaws.com/assets.jayviloria.com/coveredca-static-image.png"
+              alt=""
+            />
+            <img
+              class="gif"
+              src="https://s3-us-west-2.amazonaws.com/assets.jayviloria.com/coveredca-app-activity-resized.gif"
+              alt=""
+            />
+            <img
+              class="architecture"
+              src="https://s3-us-west-2.amazonaws.com/assets.jayviloria.com/coveredca-static-image.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+
+      <h2>Work Experience</h2>
+      <h2>Awards & Certifications</h2>
+      <h2>Education</h2>
     </div>
   </body>
 </html>
