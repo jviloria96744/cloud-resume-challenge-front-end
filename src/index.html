@@ -53,7 +53,7 @@
     <div class="content">
       <div class="projects">
         <h2>Personal Projects</h2>
-
+        <!-- Covered CA Prescription Search -->
         <h3>
           <a
             href="https://github.com/jviloria96744/covered-ca-prescription-search"
@@ -61,7 +61,6 @@
           >
             <i class="fa fa-code-fork"></i>
           </a>
-
           Covered CA Prescription Search
         </h3>
         <div class="project">
@@ -88,8 +87,8 @@
                 UI
               </li>
               <li>
-                <strong>Back-End</strong>: AWS Lambda (Python), Amazon S3,
-                Amazon S3 Select
+                <strong>Back-End</strong>: Amazon API Gateway, AWS Lambda
+                (Python), Amazon S3, Amazon S3 Select
               </li>
               <li><strong>Data Processing</strong>: Python (Tabula)</li>
               <li>
@@ -130,6 +129,85 @@
                 class="architecture"
                 src="https://s3-us-west-2.amazonaws.com/assets.jayviloria.com/coveredca-architecture-diagram.PNG
               "
+                alt=""
+              />
+            </a>
+          </div>
+        </div>
+        <!-- GeoAlbums -->
+        <h3>
+          <a href="https://github.com/jviloria96744/geo-albums" target="_blank">
+            <i class="fa fa-code-fork"></i>
+          </a>
+          GeoAlbums
+        </h3>
+        <div class="project">
+          <div class="description">
+            <p>
+              This application is meant to view your photos by location (GPS
+              Coordinates) and provide filters based on the content of the
+              photos, e.g. Amazon Rekgnotion, Reverse GeoCoding.
+            </p>
+            <br />
+            <p>
+              Upon load, there are references to pre-loaded images that the user
+              can interact with to get an idea behind application functionality.
+              The user can also create an own account and upload their own
+              photos. The current version can be thought of as a
+              Proof-Of-Concept. I intend to work on this as a longer term
+              project, specifically, targeting mobile platforms.
+            </p>
+
+            <br />
+            <p>Technology Used</p>
+            <ul class="technology-list">
+              <li>
+                <strong>Front-End</strong>: React, Hooks, Context API, Material
+                UI
+              </li>
+              <li>
+                <strong>Back-End</strong>: Amazon API Gateway, AWS Lambda
+                (Python), Amazon S3, Amazon DynamoDB
+              </li>
+              <li>
+                <strong>Image Processing</strong>: Amazon Rekognition, Python
+                (Pillow, ExifRead), Google Maps Reverse GeoCoding API
+              </li>
+              <li><strong>Hosting</strong>: Amazon CloudFront</li>
+            </ul>
+
+            <br />
+            <p>
+              <strong
+                >TRY ME! Hover over the screenshot to see an animation or go
+                directly to the
+                <a
+                  class="project-link"
+                  href="https://d2cndobv2blzcj.cloudfront.net/"
+                  target="_blank"
+                  >application</a
+                >
+              </strong>
+            </p>
+          </div>
+          <div class="screenshot">
+            <img
+              class="static"
+              src="https://s3-us-west-2.amazonaws.com/assets.jayviloria.com/coveredca-static-image.png"
+              alt=""
+            />
+            <img
+              class="gif"
+              src="https://s3-us-west-2.amazonaws.com/assets.jayviloria.com/coveredca-app-activity-resized.gif"
+              alt=""
+            />
+            <a
+              href="https://s3-us-west-2.amazonaws.com/assets.jayviloria.com/geoalbums-architecture-diagram.PNG"
+              target="_blank"
+            >
+              <img
+                class="architecture"
+                src="https://s3-us-west-2.amazonaws.com/assets.jayviloria.com/geoalbums-architecture-diagram.PNG"
                 alt=""
               />
             </a>
