@@ -13,3 +13,8 @@ body {
   justify-content: center;
   height: 100vh;
 }
+
+.banner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
