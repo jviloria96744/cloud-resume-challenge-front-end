@@ -152,4 +152,37 @@ a.project-link:hover {
 .award-list {
   margin-top: 10px;
   margin-left: 25px;
+  width: 700px;
+}
+
+.award-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.edu-list {
+  margin-top: 10px;
+  margin-left: 25px;
+  margin-bottom: 50px;
+  width: 700px;
+}
+
+.edu-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+footer {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  background-color: #e8e8e8;
+  width: 100%;
+}
+
+.counter {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  font-size: 10px;
 }
