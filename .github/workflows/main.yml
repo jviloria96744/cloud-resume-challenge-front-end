@@ -1,4 +1,4 @@
-name: Cloud Resume Challenge CI/CD
+name: Cloud Resume Challenge CI/CD Front-End
 on:
   push:
     paths:
