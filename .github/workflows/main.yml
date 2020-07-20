@@ -1,5 +1,8 @@
-name: CI
-on: [push]
+name: Cloud Resume Challenge CI/CD
+on:
+  push:
+    paths:
+      - "src/**"
 jobs:
   build:
     runs-on: ubuntu-latest
