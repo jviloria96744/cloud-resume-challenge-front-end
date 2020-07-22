@@ -218,3 +218,7 @@ footer {
   margin-left: 50px;
   font-size: 10px;
 }
+
+#counter {
+  font-weight: bold;
+}
